@@ -1,22 +1,31 @@
 # Woodsat hamradio
 
 Woodsat can be used by radio amateurs, schools, and the public.
-Wisa Woodsat is based on Kitsat, educational satellite stack.
+Wisa Woodsat is based on Kitsat, the educational satellite stack.
 
 Operation instructions for Woodsat are available in this document.
 
 ## Connecting to Woodsat
 
-You can communicate with Woodsat using minimal gear described below.
-You can send commands to it, and relay APRS messages.
-
-There are three ways to connect to Woodsat.
+There are three ways to connect to Woodsat depending on your preferred setup.
 
 1) Use your own hamradio gear with LoRa
 2) Use somebody else's hamradio gear without LoRa
 3) Orbitcon.io - on your own web browser, if you want to test your ham equipment
 
+# UHF Telecommand uplink / Telemetry downlink / CW beacon
+
+* Frequency: 433-438 MHz
+* Bandwidth: 13-50 kHz
+* Max TX power: 1.2 W (dBm 30.8)
+* Modulation: GFSK, deviation 3 kHz
+* Data and symbol rate: 9600 bits/s
+* Variable length packets
+* Protocol specification: TBD
+
 ## Hardware requirements
+
+### LoRa
 
 You will need:
 * A YAGI antenna
@@ -33,6 +42,17 @@ You will need:
    * ESP32 dev board + SX126X with crystal (Custom build, OLED optional)
    * ESP32 dev board + SX126X with TCXO (Custom build, OLED optional)
    * ESP32 dev board + SX127X (Custom build, OLED optional)
+* Semtec SX1276
+* HopeRF RFM69
+* STM32WL
+* Gnuradio with GR-Lora
+* Amplifier
+
+### Raw
+
+Communicating on 433-438 MHz without LoRa:
+
+* Detailed protocol information will be available on this site near launch.
 
 ## How to know where the satellite is
 

@@ -8,20 +8,39 @@ Operation instructions for Woodsat are available in this document.
 ## Connecting to Woodsat
 
 You can communicate with Woodsat using minimal gear described below.
-You can send commands to it, relay APRS messages, and even do something fun.
+You can send commands to it, and relay APRS messages.
 
 There are three ways to connect to Woodsat.
 
 1) Use your own hamradio gear with LoRa
 2) Use somebody else's hamradio gear without LoRa
-3) Orbitcon.io - on your own web browser, if you want to check your ham equipment
+3) Orbitcon.io - on your own web browser, if you want to test your ham equipment
 
 ## Hardware requirements
 
-* Transceiver (preferably SDR)
-* YAGI antenna
-* LoRa hardware
-* Raspberry Pi / Nucleo / Etc. to connect with LoRa
+You will need:
+* A YAGI antenna
+* Raspberry Pi / Nucleo / Etc. devboard to connect with a LoRa board
+* LoRa board:
+   * Heltec WiFi LoRa 32 V1 (433MHz & 863-928MHz versions)
+   * Heltec WiFi LoRa 32 V2 (433MHz & 863-928MHz versions)
+   * TTGO LoRa32 V1 (433MHz & 868-915MHz versions)
+   * TTGO LoRa32 V2 (433MHz & 868-915MHz versions)
+   * TTGO LoRa32 V2 (Manually swapped SX1267 to SX1278)
+   * T-BEAM + OLED (433MHz & 868-915MHz versions)
+   * T-BEAM V1.0 + OLED
+   * FOSSA 1W Ground Station (433MHz & 868-915MHz versions)
+   * ESP32 dev board + SX126X with crystal (Custom build, OLED optional)
+   * ESP32 dev board + SX126X with TCXO (Custom build, OLED optional)
+   * ESP32 dev board + SX127X (Custom build, OLED optional)
+
+## How to know where the satellite is
+
+Before the satellite is launched, some orbit parameters are calculated from the satellite within the rocket.
+After that, the parameters get updated.
+They will look like this:
+
+????
 
 ## Software requirements
 

@@ -54,13 +54,14 @@ Communicating on 433-438 MHz without LoRa:
 
 * Detailed protocol information will be available on this site near launch.
 
-## How to know where the satellite is
+## How to know where the satellite is flying
 
-Before the satellite is launched, some orbit parameters are calculated from the satellite within the rocket.
-After that, the parameters get updated.
-They will look like this:
+In order to connect the satellite, you must know where it is.
 
-????
+When the satellite is launched, orbit parameters are calculated from the rocket.
+After deployment, the parameters get updated by radars that trace satellites on orbit.
+Therefore, the location of the satellite after launch can be tracked ie. on here in real time:
+https://www.n2yo.com/
 
 ## Software requirements
 

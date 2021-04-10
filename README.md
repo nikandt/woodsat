@@ -61,8 +61,6 @@ Designed TX frame:
 |        |                 |                 |                 |                 |
 |        |                 |                 |                 |                 |
 
-...
-
 | Data (53 bytes) | FNV                                                                |
 |-----------------|--------------------------------------------------------------------|
 |                 | 0 0 1 1 0 1 0 1  1 0 0 0 0 1 1 0  0 0 0 0 0 1 1 0  1 0 0 1 0 0 0 0 |
@@ -77,7 +75,7 @@ Please use this GRC block with LoRa: https://github.com/rpp0/gr-lora
 
 ### Regular communication (SDR)
 
-For pure 435-438 MHz communication, there's the free-to-use Kitsat protocol, which will be available on this site in July 2021.
+Please see section [Kitsat protocol](#uhf-ax25--kitsat-protocol) above.
 
 #### Windows users
 

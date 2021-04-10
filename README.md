@@ -9,7 +9,7 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 
 1) 433-438 MHz uplink with LoRa
 2) 433-438 MHz uplink without LoRa
-3) Orbitcon.io - on your own web browser, if you want to test your equipment or if you do not have access to radio hardware
+3) Orbitcon.io - on your web browser, if you want to test your equipment or if you do not have access to radio hardware
 
 ## UHF Telecommand uplink / Telemetry downlink / CW beacon
 
@@ -25,7 +25,6 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 ### LoRa
 
 You will need:
-* A YAGI antenna
 * Amplifier (optional)
 * LoRa hardware with a LoRa-compatible devboard
      * OR, Gnuradio with GR-Lora

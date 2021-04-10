@@ -46,7 +46,7 @@ You will need:
 * HopeRF RFM69
 * STM32WL
 * Gnuradio with GR-Lora
-* Amplifier
+* Amplifier (optional)
 
 ### Raw
 

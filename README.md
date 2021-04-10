@@ -1,8 +1,5 @@
 # Woodsat hamradio
 
-Woodsat can be used by radio amateurs, schools, and the public.
-Wisa Woodsat is based on Kitsat, the educational satellite stack.
-
 Operation instructions for Woodsat are available in this document.
 
 ## Connecting to Woodsat

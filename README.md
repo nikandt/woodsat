@@ -17,9 +17,9 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 
 * Frequency: 433-438 MHz
 * Bandwidth: 13-50 kHz
-* Max TX power: 1.2 W (dBm 30.8)
-* Modulation: GFSK, deviation 3 kHz
-* Data and symbol rate: 9600 bits/s
+* Max TX power: X.Y W (dBm Z.W)
+* Modulation: GFSK, deviation X kHz
+* Data and symbol rate: XXXX bits/s
 * Variable length packets
 * Protocol specification: TBD
 
@@ -60,7 +60,7 @@ In order to connect the satellite, you must know where it is.
 
 When the satellite is launched, orbit parameters are calculated from the rocket.
 After deployment, the parameters get updated by radars that trace satellites on orbit.
-Therefore, the location of the satellite after launch can be tracked ie. on here in real time:
+The location of the satellite after launch can be tracked ie. on here in real time:
 https://www.n2yo.com/
 
 ## Software requirements
@@ -71,7 +71,7 @@ Please use this GRC block: (GRC)[grc.com]
 
 ### Regular communication (SDR)
 
-For pure 435-438 MHz communication, there's the free-to-use Kitsat protocol.
+For pure 435-438 MHz communication, there's the free-to-use Kitsat protocol, which will be available on this site in July 2021.
 
 #### Windows users
 

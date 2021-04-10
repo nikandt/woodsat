@@ -1,7 +1,7 @@
 # Woodsat hamradio
 
-Operation instructions for Woodsat are available in this document.
-Further updates to this document is provided by Tessa Nikander closer to planned launch date (Oct 15th 2021).
+This document guides you to getting started with Woodsat.
+Further updates to this document are provided by Tessa Nikander closer to planned launch date (Oct 15th 2021).
 
 ## Setup
 
@@ -26,8 +26,13 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 
 You will need:
 * A YAGI antenna
+* Amplifier (optional)
+* LoRa hardware with a LoRa-compatible devboard
+     * OR, Gnuradio with GR-Lora
+
+LoRa hardware options:
 * Raspberry Pi / Nucleo / Etc. devboard to connect with a LoRa board
-* LoRa board:
+* LoRa boards:
    * Heltec WiFi LoRa 32 V1 (433MHz & 863-928MHz versions)
    * Heltec WiFi LoRa 32 V2 (433MHz & 863-928MHz versions)
    * TTGO LoRa32 V1 (433MHz & 868-915MHz versions)
@@ -42,14 +47,12 @@ You will need:
 * Semtec SX1276
 * HopeRF RFM69
 * STM32WL
-* Gnuradio with GR-Lora
-* Amplifier (optional)
 
 ### UHF AX.25 / Kitsat Protocol
 
 Communicating on 433-438 MHz without LoRa:
 
-*Detailed protocol specifications and operation instructions will be available on this site near launch.
+*Detailed protocol specifications and operation instructions will be available on this page prior to launch.
 
 Kitsat protocol is free to use.
 

@@ -15,7 +15,7 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 
 * Frequency: 433-438 MHz
 * Bandwidth: 13-50 kHz
-* Max TX power: 2.0 W (dBm 33.01)
+* Max TX power: 1.0 W (dBm 30.0)
 * Modulation: GFSK, deviation 13 kHz
 * Data and symbol rate: 9600 bits/s
 * Protocol specification: see [Kitsat protocol](#uhf-ax25--kitsat-protocol) 

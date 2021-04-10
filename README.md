@@ -9,9 +9,9 @@ Operation instructions for Woodsat are available in this document.
 
 There are three ways to connect to Woodsat depending on your preferred setup.
 
-1) Use your own hamradio gear with LoRa
-2) Use somebody else's hamradio gear without LoRa
-3) Orbitcon.io - on your own web browser, if you want to test your ham equipment
+1) 433-438 MHz uplink with LoRa
+2) 433-438 MHz uplink without LoRa
+3) Orbitcon.io - on your own web browser, if you want to test your equipment or you do not have access to radio hardware
 
 # UHF Telecommand uplink / Telemetry downlink / CW beacon
 

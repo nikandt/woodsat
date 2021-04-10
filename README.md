@@ -1,24 +1,24 @@
 # Woodsat hamradio
 
 Operation instructions for Woodsat are available in this document.
+The instructions will be updated to further details closer to launch.
 
-## Connecting to Woodsat
+## Setup
 
 There are three ways to connect to Woodsat depending on your preferred setup.
 
 1) 433-438 MHz uplink with LoRa
 2) 433-438 MHz uplink without LoRa
-3) Orbitcon.io - on your own web browser, if you want to test your equipment or you do not have access to radio hardware
+3) Orbitcon.io - on your own web browser, if you want to test your equipment or if you do not have access to radio hardware
 
-# UHF Telecommand uplink / Telemetry downlink / CW beacon
+## UHF Telecommand uplink / Telemetry downlink / CW beacon
 
 * Frequency: 433-438 MHz
 * Bandwidth: 13-50 kHz
 * Max TX power: 2.0 W (dBm 33.01)
-* Modulation: GFSK, deviation X kHz
-* Data and symbol rate: XXXX bits/s
-* Variable length packets
-* Protocol specification: TBD
+* Modulation: GFSK, deviation 13 kHz
+* Data and symbol rate: 9600 bits/s
+* Protocol specification: see [Kitsat protocol](#uhf-ax25--kitsat-protocol) 
 
 ## Hardware requirements
 

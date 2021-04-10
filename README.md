@@ -48,20 +48,11 @@ You will need:
 * Gnuradio with GR-Lora
 * Amplifier (optional)
 
-### Raw
+### UHF AX.25
 
 Communicating on 433-438 MHz without LoRa:
 
 * Detailed protocol information will be available on this site near launch.
-
-## How to know where the satellite is flying
-
-In order to connect the satellite, you must know where it is.
-
-When the satellite is launched, orbit parameters are calculated from the rocket.
-After deployment, the parameters get updated by radars that trace satellites on orbit.
-The location of the satellite after launch can be tracked ie. on here in real time:
-https://www.n2yo.com/
 
 ## Software requirements
 
@@ -80,3 +71,8 @@ Widnows users can use the graphical version of the groundstation. Download `GS_G
 #### *nix users
 
 A CLI-version of the Kitsat protocol is for \*nix-users and can be used with `screen`. Also available [here](http://staging.kitsat.fi) from July 2021.
+
+## How to know where the satellite is flying
+
+The location of the satellite after launch can be tracked ie. on here in real time:
+https://www.n2yo.com/

@@ -14,7 +14,7 @@ There are three ways to connect to Woodsat depending on your preferred setup.
 
 * Frequency: 433-438 MHz
 * Bandwidth: 13-50 kHz
-* Max TX power: X.Y W (dBm Z.W)
+* Max TX power: 2.0 W (dBm 33.01)
 * Modulation: GFSK, deviation X kHz
 * Data and symbol rate: XXXX bits/s
 * Variable length packets
@@ -49,7 +49,23 @@ You will need:
 
 Communicating on 433-438 MHz without LoRa:
 
-* Detailed protocol information will be available on this site near launch.
+*Detailed protocol information will be available on this site near launch.
+
+Designed TX frame:
+
+| Beacon | Target          | Origin          | Command ID      | Data length     |
+|--------|-----------------|-----------------|-----------------|-----------------|
+|        | 0 0 0 0 0 0 0 1 | 0 0 0 0 0 0 1 0 | 0 0 0 0 0 1 0 0 | 1 0 1 1 1 0 1 1 |
+|        |                 |                 |                 |                 |
+|        |                 |                 |                 |                 |
+
+...
+
+| Data (53 bytes) | FNV                                                                |
+|-----------------|--------------------------------------------------------------------|
+|                 | 0 0 1 1 0 1 0 1  1 0 0 0 0 1 1 0  0 0 0 0 0 1 1 0  1 0 0 1 0 0 0 0 |
+|                 |                                                                    |
+|                 |                                                                    | 
 
 ## Software requirements
 

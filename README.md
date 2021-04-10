@@ -1,7 +1,7 @@
 # Woodsat hamradio
 
 Operation instructions for Woodsat are available in this document.
-The instructions will be updated to further details closer to launch.
+Further updates to this document is provided by Tessa Nikander closer to planned launch date (Oct 15th 2021).
 
 ## Setup
 

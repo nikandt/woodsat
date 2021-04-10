@@ -45,11 +45,13 @@ You will need:
 * Gnuradio with GR-Lora
 * Amplifier (optional)
 
-### UHF AX.25
+### UHF AX.25 / Kitsat Protocol
 
 Communicating on 433-438 MHz without LoRa:
 
-*Detailed protocol information will be available on this site near launch.
+*Detailed protocol specifications and operation instructions will be available on this site near launch.
+
+Kitsat protocol is free to use.
 
 Designed TX frame:
 
@@ -71,7 +73,7 @@ Designed TX frame:
 
 ### LoRa (SDR)
 
-Please use this GRC block: (GRC)[grc.com]
+Please use this GRC block with LoRa: [https://github.com/rpp0/gr-lora]
 
 ### Regular communication (SDR)
 

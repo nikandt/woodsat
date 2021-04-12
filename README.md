@@ -72,10 +72,6 @@ Designed TX frame:
 
 Please use this GRC block with LoRa: https://github.com/rpp0/gr-lora
 
-### AX.25 / Kitsat (SDR)
-
-Please see section [Kitsat protocol](#kitsat-protocol) above.
-
 #### Windows users
 
 Widnows users can use the graphical version of the groundstation. Download `GS_GUI_Installer.msi`, available [here](http://staging.kitsat.fi).

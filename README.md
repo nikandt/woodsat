@@ -1,6 +1,6 @@
 # Woodsat hamradio
 
-Woodsat functions as a LoRa repeater on the 70 cm band in a sun-synchronous low Earth orbit. It listens to short messages (64 bytes), in which a repeating delay parameter is set, thus allowing the amateur to target a desired geographical area.
+Woodsat functions as a LoRa repeater on the 70 cm band in a sun-synchronous low Earth orbit. It listens to short messages (TBD 64 bytes), in which a repeating delay parameter is set, thus allowing the amateur to target a desired geographical area.
 Licensed radio amateurs can contact the satellite with a hardware setup that is described below.
 Additionally, the satellite can be contacted using Orbitcon.io on your web browser.
 

@@ -33,9 +33,15 @@ LoRa hardware options:
 
 LoRa GRC block: https://github.com/rpp0/gr-lora
 
-### Kitsat Protocol
+### Telemetry details
 
-Detailed protocol specifications and operation instructions will be available on this page prior to launch.
+* Frequency:      433-438 MHz
+* Bandwidth:      TBD
+* Max TX power:   1 W (30 dBm)
+* Modulation:     FSK
+* Beacon:         TBD
+* Protocol:       Detailed protocol specification will be available on this page prior to launch.
+
 
 ## Where is the satellite now?
 

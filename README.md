@@ -1,6 +1,6 @@
 # Woodsat hamradio
 
-Woodsat functions as a LoRa repeater on the 70 cm band in a sun-synchronous low Earth orbit. It listens to short messages (TBD 64 bytes), in which a repeating delay parameter is set, thus allowing the amateur to target a specific geographical area.
+Woodsat serves as a LoRa repeater on the 70 cm UHF band in a sun-synchronous low Earth orbit. It listens to short messages (TBD 64 bytes), in which a repeating delay parameter is set, thus allowing the amateur to target a specific geographical area.
 Licensed radio amateurs can contact the satellite with a hardware setup that is described below.
 
 Further updates to this document are provided by Tessa Nikander closer to planned launch date (Oct 15th 2021).
@@ -17,15 +17,13 @@ You will need:
 LoRa hardware options:
 * Raspberry Pi / Nucleo / Etc. devboard to connect with a LoRa board
 * LoRa boards:
-   * Heltec WiFi LoRa 32 V1 (433MHz)
-   * Heltec WiFi LoRa 32 V2 (433MHz)
+   * Heltec WiFi LoRa 32 (433MHz)
    * TTGO LoRa32 V1 (433MHz)
    * TTGO LoRa32 V2 (433MHz)
    * T-BEAM + OLED (433MHz)
    * FOSSA 1W Ground Station (433MHz)
-   * ESP32 dev board + SX126X
-   * ESP32 dev board + SX127X
-* Semtec SX1276
+   * ESP32 dev board + Semtec SX126X
+   * ESP32 dev board + Semtec SX127X
 * HopeRF RFM69
 * STM32WL
 

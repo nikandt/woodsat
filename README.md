@@ -5,10 +5,9 @@ Further updates to this document are provided by Tessa Nikander closer to planne
 
 ## Setup
 
-There are three ways to connect to Woodsat depending on your preferred setup.
+There are two ways to connect to Woodsat depending on your preferred setup.
 
-1) 433-438 MHz uplink with LoRa
-2) 433-438 MHz uplink with AX.25/Kitsat protocol
+1) 433-438 MHz uplink (w/ LoRa)
 3) Orbitcon.io - on your web browser, if you want to test your equipment or if you do not have access to radio hardware
 
 ## UHF Telecommand uplink / Telemetry downlink / CW beacon
@@ -47,7 +46,7 @@ LoRa hardware options:
 * HopeRF RFM69
 * STM32WL
 
-### UHF AX.25 / Kitsat Protocol
+### AX.25 / Kitsat Protocol
 
 Detailed protocol specifications and operation instructions will be available on this page prior to launch.
 

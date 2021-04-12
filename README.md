@@ -17,7 +17,7 @@ There are two ways to connect to Woodsat depending on your preferred setup.
 * Max TX power: 1.0 W (dBm 30.0)
 * Modulation: GFSK, deviation 13 kHz
 * Data and symbol rate: 9600 bits/s
-* Protocol specification: see [Kitsat protocol](#uhf-ax25--kitsat-protocol) 
+* Protocol specification: see [Kitsat protocol](#kitsat-protocol) 
 
 ## Hardware requirements
 
@@ -26,7 +26,7 @@ There are two ways to connect to Woodsat depending on your preferred setup.
 You will need:
 * Amplifier (optional)
 * LoRa hardware with a LoRa-compatible devboard
-     * OR, Gnuradio with GR-Lora
+     * OR, Gnuradio compatible SDR with GR-Lora
 
 LoRa hardware options:
 * Raspberry Pi / Nucleo / Etc. devboard to connect with a LoRa board
@@ -46,7 +46,7 @@ LoRa hardware options:
 * HopeRF RFM69
 * STM32WL
 
-### AX.25 / Kitsat Protocol
+### Kitsat Protocol
 
 Detailed protocol specifications and operation instructions will be available on this page prior to launch.
 
@@ -74,7 +74,7 @@ Please use this GRC block with LoRa: https://github.com/rpp0/gr-lora
 
 ### AX.25 / Kitsat (SDR)
 
-Please see section [Kitsat protocol](#uhf-ax25--kitsat-protocol) above.
+Please see section [Kitsat protocol](#kitsat-protocol) above.
 
 #### Windows users
 

@@ -70,7 +70,7 @@ Designed TX frame:
 
 ### LoRa (SDR)
 
-Please use this GRC block with LoRa: https://github.com/rpp0/gr-lora
+LoRa GRC block: https://github.com/rpp0/gr-lora
 
 #### Windows users
 

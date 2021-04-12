@@ -33,7 +33,7 @@ LoRa hardware options:
 
 LoRa GRC block: https://github.com/rpp0/gr-lora
 
-### Telemetry details
+## Telemetry details
 
 * Frequency:      433-438 MHz
 * Bandwidth:      TBD

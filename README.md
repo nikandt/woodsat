@@ -3,7 +3,7 @@
 This document guides you to getting started with Woodsat.
 Further updates to this document are provided by Tessa Nikander closer to planned launch date (Oct 15th 2021).
 
-The main technical mission is to act as a LoRa repeater on the 70 cm band on low Earth orbit. The satellite listens short messages (64 bytes) and the delay can be set as a parameter, allowing the amateur to target a desired geographical area with their message.
+The satellite functions as a LoRa repeater on the 70 cm band in a sun-synchronous low Earth orbit. It listens to short messages (64 bytes), in which a repeating delay parameter is set, thus allowing the amateur to target a desired geographical area.
 Licensed radio amateurs can contact the satellite with a hardware setup that is described below. Additionally, the satellite can be contacted using Orbitcon.io on your web browser.
 
 ## Hardware requirements

@@ -5,7 +5,7 @@ Further updates to this document are provided by Tessa Nikander closer to planne
 
 ## Setup
 
-There are two ways to connect to Woodsat depending on your preferred setup.
+There are two ways to contact Woodsat depending on your preferred setup.
 
 1) 433-438 MHz uplink (w/ LoRa)
 3) Orbitcon.io - on your web browser, if you want to test your equipment or if you do not have access to radio hardware
@@ -15,9 +15,10 @@ There are two ways to connect to Woodsat depending on your preferred setup.
 * Frequency: 433-438 MHz
 * Bandwidth: 13-50 kHz
 * Max TX power: 1.0 W (dBm 30.0)
-* Modulation: GFSK, deviation 13 kHz
-* Data and symbol rate: 9600 bits/s
-* Protocol specification: see [Kitsat protocol](#kitsat-protocol) 
+* Modulation: GFSK
+* Protocol specification: see [Kitsat protocol](#kitsat-protocol)
+* Data and symbol rate: TBD bits/s
+* Callsign: TBD
 
 ## Hardware requirements
 

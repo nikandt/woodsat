@@ -22,7 +22,6 @@ LoRa hardware options:
    * TTGO LoRa32 V1 (433MHz)
    * TTGO LoRa32 V2 (433MHz)
    * T-BEAM + OLED (433MHz)
-   * T-BEAM V1.0 + OLED
    * FOSSA 1W Ground Station (433MHz)
    * ESP32 dev board + SX126X
    * ESP32 dev board + SX127X

@@ -15,15 +15,15 @@ You will need:
      * OR, Gnuradio compatible SDR with GR-Lora
 
 LoRa hardware options:
-* Raspberry Pi / Nucleo / Etc. devboard to connect with a LoRa board
+* Raspberry Pi / Nucleo / ESP32 Etc. devboard to connect with a LoRa board
 * LoRa boards:
    * Heltec WiFi LoRa 32 (433MHz)
    * TTGO LoRa32 V1 (433MHz)
    * TTGO LoRa32 V2 (433MHz)
    * T-BEAM + OLED (433MHz)
    * FOSSA 1W Ground Station (433MHz)
-   * ESP32 dev board + Semtec SX126X
-   * ESP32 dev board + Semtec SX127X
+   * Semtec SX126X
+   * Semtec SX127X
 * HopeRF RFM69
 * STM32WL
 
